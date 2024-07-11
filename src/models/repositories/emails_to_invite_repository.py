@@ -2,34 +2,33 @@
 from typing import Dict, Tuple, List
 from sqlite3 import Connection
 
-class ActivitiesRepository:
+class EmailsToInviteRepository:
     def __init__(self, conn: Connection) -> None:
         self.__conn = conn
     
-    def registry_activity(self, activity_infos: Dict) -> None:
+    def registry_email(self, email_infos: Dict) -> None:
         cursor = self.__conn.cursor()
         cursor.execute(
             '''
-            INSERT INTO activities
-                (id, trip_id, title, occurs_at)
+            INSERT INTO emails_to_invite
+                (id, trip_id, email)
             VALUES
-                (?, ?, ?, ?)
+                (?, ?, ?)
             ''', (
-                activity_infos["id"],
-                activity_infos["trip_id"],
-                activity_infos["title"],
-                activity_infos["occurs_at"]
+                email_infos["id"],
+                email_infos["trip_id"],
+                email_infos["email"],
             )
         )
         self.__conn.commit()
         
-    def find_activities_from_trip(self, trip_id: str) -> List[Tuple]: 
+    def find_emails_from_trip(self, trip_id: str) -> List[Tuple]: 
         cursor = self.__conn.cursor()
         cursor.execute(
-            '''SELECT * FROM activities WHERE trip_id = ?''', (trip_id,)
+            '''SELECT * FROM emails_to_invite WHERE trip_id = ?''', (trip_id,)
         )
-        activities = cursor.fetchall()  
-        return activities
+        emails = cursor.fetchall()  
+        return emails
     
 
     
