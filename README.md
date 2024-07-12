@@ -1,6 +1,6 @@
 # Especificações
 
-# Plann.er
+✪ Plann.er
 
 O projeto Journey tem como objetivo ajudar o usuário a **organizar viagens à trabalho ou lazer**.
 
@@ -22,9 +22,9 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 ## Banco de dados
 
 Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o SQLite pela facilidade do ambiente.
+![plann.er](image-2.png)
 
 Especificações da API para o back-end da aplicação plann.er construída durante o NLW Journey da Rocketseat.
-![plann.er](image-2.png)
 ![trips](image-3.png)
 ![participants](image-4.png)
 ![activities](image-5.png)
