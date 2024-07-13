@@ -22,10 +22,10 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 ## Banco de dados
 
 Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o SQLite pela facilidade do ambiente.
-![plann.er](plann.er.png)
+![plann.er](nlw_Journey_api_docs/plann.er.png)
 
 Especificações da API para o back-end da aplicação plann.er construída durante o NLW Journey da Rocketseat.
-![trips](endpoints_trips.png)
-![participants](endpoints_participants.png)
-![activities](endpoints_activities.png)
-![links](endpoints_links-1.png)
+![trips](nlw_Journey_api_docs/endpoints_trips.png)
+![participants](nlw_Journey_api_docs/endpoints_participants.png)
+![activities](nlw_Journey_api_docs/endpoints_activities.png)
+![links](nlw_Journey_api_docs/endpoints_links.png)
