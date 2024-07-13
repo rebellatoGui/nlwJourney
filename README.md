@@ -28,4 +28,4 @@ Especificações da API para o back-end da aplicação plann.er construída dura
 ![trips](endpoints_trips.png)
 ![participants](endpoints_participants.png)
 ![activities](endpoints_activities.png)
-![links](endpoints_links.png)
+![links](endpoints_links-1.png)
