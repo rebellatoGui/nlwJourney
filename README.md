@@ -19,12 +19,14 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 5. Ainda na página do evento, o criador e os convidados podem adicionar atividades que irão ocorrer durante a viagem com título, data e horário;
 6. Novos participantes podem ser convidados dentro da página do evento através do e-mail e assim devem passar pelo fluxo de confirmação como qualquer outro convidado;
 
-## Banco de dados
+# Banco de dados
 
-Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o SQLite pela facilidade do ambiente.
+## Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o SQLite pela facilidade do ambiente.
+
 ![plann.er](nlw_Journey_api_docs/plann.er.png)
 
-Especificações da API para o back-end da aplicação plann.er construída durante o NLW Journey da Rocketseat.
+## Especificações da API para o back-end da aplicação plann.er construída durante o NLW Journey da Rocketseat.
+
 ![trips](nlw_Journey_api_docs/endpoints_trips.png)
 ![participants](nlw_Journey_api_docs/endpoints_participants.png)
 ![activities](nlw_Journey_api_docs/endpoints_activities.png)
